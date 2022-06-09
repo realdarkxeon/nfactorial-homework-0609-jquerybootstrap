@@ -1,0 +1,95 @@
+body {
+    background-image: linear-gradient(to right, blue, blueviolet);
+    color: white !important;
+}
+
+hr {
+    color:violet;
+    margin: 5px;
+}
+
+nav {
+    background-image: linear-gradient(to right, blue, blueviolet);
+}
+
+.nav-item, .dropdown-item {
+    font-size: 1.1rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 2%;
+}
+
+img {
+    max-width: 30%;
+    max-height: 30%;
+    object-fit: contain;
+    margin: 1rem auto;
+    margin-bottom: 5rem;
+}
+
+[type=button] {
+    opacity: 1;
+    color: blue;
+}
+
+#generator {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-template-rows: 50px 50px 50px 50px;
+    justify-content: center;
+}
+
+.labels {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text] {
+    width: 75%;
+    border-radius: 0.625rem;
+    background-color: #C4C4C44D;
+    height: 41px;
+    font-size: var(--common-size);
+    font-weight: 400;
+    padding-left: 1rem;
+    border-width: 0;
+    margin: 5px 0;
+    color: white;
+}
+
+input[type=text]::placeholder {
+    color: white;
+    opacity: 0.6;
+}
+
+#button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 40%;
+    margin: 2rem auto;
+}
+
+#button {
+    border-radius: 0.625rem;
+    background-color: #1ED760;
+    height: 41px;
+    width: 75%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    border-width: 0;
+}
+
+#button:hover {
+    background-color: #000000;
+}
+
+#generated-story {
+    padding: 4rem;
+    font-size: 1.25rem;
+    border-radius: 2rem;
+    background-color: #C4C4C44D;
+}
